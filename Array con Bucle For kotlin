@@ -1,0 +1,16 @@
+fun main(){
+	val planets = arrayOfNulls<String>(8)
+    planets[0] = "Mercurio"
+    planets[1] = "Venus"
+    planets[2] = "Tierra"
+    planets[3] = "Jupiter"
+    planets[4] = "Saturno"
+    planets[5] = "Urano"
+    planets[6] = "Neptuno"
+    planets[7] = "Pluton"
+    
+    for (i in planets.indices){
+        println("${planets[i]} estan en la posicion ${i+1}")
+    }
+    
+}
