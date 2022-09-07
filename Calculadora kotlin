@@ -1,0 +1,34 @@
+fun main(){
+    println("Hola, Bienvenido")
+    
+    var cadena = "esto es una cadena de texto"
+    var cadenaextendida = cadena + "algo"
+    println(cadenaextendida)
+    var numero = 5
+    var textoycadena = cadenaextendida + numero
+    println(textoycadena)
+    
+    var numero1 = 2
+    var numero2 = 2
+    var resultado1 = numero1 + numero2
+    println(resultado1)
+    
+    var numero3 = 2
+    var numero4 = 2
+    var resultado2 = numero3 - numero4
+    println(resultado2)
+    
+    var numero5 = 2
+    var numero6 = 2
+    var resultado3 = numero5 * numero6
+    println(resultado3)
+    
+    var numero7 = 2
+    var numero8 = 2
+    var resultado4 = numero7 / numero8
+    println(resultado4)
+    
+    
+    
+    
+ }
